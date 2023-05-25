@@ -1,0 +1,8 @@
+<?php
+$connect=mysqli_connect("database-ade.ckteppi5yxvg.us-east-1.rds.amazonaws.com","root","","products");
+
+if(!$connect){
+    echo "Koneksi Gagal";
+    die();
+}
+?>
